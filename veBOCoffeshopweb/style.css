@@ -1,0 +1,73 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        color: #c58464;
+    }
+    
+    .banner {
+        position: relative;
+        background: url(./img/bg.jpeg);
+        min-height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .navbar-brand {
+        border: 2px solid black;
+        font-family: 'Mansalva', cursive;
+        font-size: 25px;
+        padding: 5px 15px;
+    }
+    
+    .text-justify {
+        text-align: justify!important;
+        font-family: monospace;
+        font-size: 17px;
+    }
+    
+    .navbar-nav li {
+        font-size: 25px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 600;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(224, 122, 53, 0.77);
+    }
+    
+    .navbar-nav .nav-item {
+        padding: 0 10px 0 10px;
+    }
+    
+    .idea_img img {
+        height: 350px;
+        width: 60%;
+        margin-left: 150px;
+        box-shadow: 13px -11px 1px 1px #c58464;
+    }
+    
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+        box-shadow: 4px -4px 4px 1px #e0916275;
+    }
+    
+    i.fab {
+        font-size: 40px;
+        padding: 0 20px;
+    }

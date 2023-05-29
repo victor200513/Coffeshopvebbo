@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Länk till Twitter Bootstrap CSS-filen -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Länk till Font Awesome CSS-filen -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<!-- Länk till Google Fonts Mansalva -->
+<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet"> 
+<!-- Länk till Google Fonts Dancing Script -->
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<title>Vebo Coffeshop</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">  
+    <header id="home">
+        <!--the navigation bar section-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Vebo Caffe!</a>
+                <!-- The navigation bar toggle button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Navigation links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="banner"></section>
+    </header>
+
+<!-- The "About" section -->
+    <section id="about" class="mt-5">
+        <div class="about_intro">
+
+            <div class="hr">
+                <hr>
+            </div>
+            <h2 class="text-center">About us</h2>
+            <div class="row">
+                <div class="col-6">
+  <!-- Description of the coffee shop -->
+                    <p>Välkommen till Vebo, en mysig coffeeshop som är känd för sina fantastiska svenska bullar. Här får du verkligen uppleva en unik blandning av svensk tradition och kaffe i en avslappnad och trivsam atmosfär.
+
+                        När du kliver in genom dörren på Vebo möts du genast av den härliga doften av nybryggt kaffe och nybakade bullar. Vår meny är full av olika sorters bullar som är älskade av svenskar överallt. Du hittar allt från klassiska kanelbullar med sitt ljuvliga kanelsocker, till saftiga kardemummabullar och frasiga vaniljhjärtan. Vi har verkligen något för alla smaker!
+                        
+                        Vi lägger stor vikt vid att använda de absolut bästa och mest hållbara ingredienserna i våra bullar. Våra bagare är riktiga experter när det kommer till att skapa perfekt deg och kombinera noggrant utvalda fyllningar för att ge dig den bästa möjliga smakupplevelsen. Och självklart har vi också veganska alternativ för våra gäster som föredrar det.
+                        
+                        Slå dig ner vid ett av våra bekväma bord, njut av en kopp rykande hett kaffe eller kanske en kopp te, och låt dig förföras av den traditionella svenska bullkulturen. Vi vill verkligen skapa en känsla av värme och gemenskap, så att du känner dig precis som hemma när du besöker oss.</p>
+                </div>
+  
+                <div class="col-6">
+                     <!-- Image related to the coffee shop -->
+                    <div class="idea_img mt-5">
+                        <img src="./img/bacc.jpg" alt="about_us img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </section>
+  <!-- The "Menu" section -->
+    <section id="menu">
+        <div class="menu_intro">
+            <h2 class="text-center pt-5">Coffe Menu</h2>
+        </div>
+        <!-- Table displaying coffee menu items -->
+        <table class="table table-striped table-dark p-5 mt-5">
+            <thead class="thead-light">
+                <tr>
+                    <th></th>
+                    <th>Hot</th>
+                    <th>Iced</th>
+                    <th>Blended</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <!-- Coffee menu items with their prices -->
+                <tr>
+                    <td>Americano</td>
+                    <td> 10kr</td>
+                    <td> 15kr</td>
+                    <td> -</td>
+                </tr>
+                <tr>
+                    <td>Cuppocino</td>
+                    <td> 15kr</td>
+                    <td> 18kr</td>
+                    <td> 20kr</td>
+                </tr>
+                <tr>
+                    <td>Fresh Latte</td>
+                    <td> 10kr</td>
+                    <td> 18kr</td>
+                    <td> 20kr</td>
+                </tr>
+                <tr>
+                    <td>Mocha</td>
+                    <td> 15kr</td>
+                    <td> 18kr</td>
+                    <td> 20kr</td>
+                </tr>
+
+                <tr>
+                    <td>Espresso</td>
+                    <td> 10kr</td>
+                    <td> 15kr</td>
+                    <td> -</td>
+                </tr>
+                <tr>
+                    <td>Black Coffe</td>
+                    <td> 15kr</td>
+                    <td> -</td>
+                    <td> -</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </section>
+    <!--coffe menu-->
+
+    <!--tea menu-->
+    <section id="tea">
+        <div class="menu_intro">
+            <h2 class="text-center pt-5">Tea Menu</h2>
+        </div>
+        <!-- Table displaying tea menu items -->
+        <table class="table table-striped table-dark p-5 mt-5">
+            <thead class="thead-light">
+                <tr>
+                    <th></th>
+                    <th>Hot</th>
+                    <th>Iced</th>
+                    <th>Addon</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <!-- Tea menu items with their prices -->
+                <tr>
+                    <td>Pure white milk</td>
+                    <td> 5kr</td>
+                    <td> 10kr</td>
+                    <td> -</td>
+                </tr>
+                <tr>
+                    <td>Hong kong tea</td>
+                    <td> 8kr</td>
+                    <td> 12kr</td>
+                    <td> 4kr</td>
+                </tr>
+                <tr>
+                    <td>Taiwane tea</td>
+                    <td> 4kr</td>
+                    <td> 10kr</td>
+                    <td> 4kr</td>
+                </tr>
+                <tr>
+                    <td>bubble tea</td>
+                    <td> 8kr</td>
+                    <td> 12kr</td>
+                    <td> -</td>
+                </tr>
+
+                <tr>
+                    <td>Mixed fruit tea</td>
+                    <td> 10kr</td>
+                    <td> 10kr</td>
+                    <td> 8kr</td>
+                </tr>
+                <tr>
+                    <td>Pure tea</td>
+                    <td> 12kr</td>
+                    <td> 12kr</td>
+                    <td> -</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </section>
+    <!--tea section ends-->
+
+    <!--special items-->
+    <section id="items">
+        <div class="special">
+            <h2 class="text-center mt-5">Special Items</h2>
+            <div class="row" mt-5>
+                <div class="col-4">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <img class="img-fluid" src="./img/soft.jpg" alt="softcup">
+                            <h5 class="card-title text-center mt-3">Soft deli cup</h5>
+                            <h5 class="text-center text-danger">25kr</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <img class="img-fluid" src="./img/art.jpg" alt="artcup">
+                            <h5 class="card-title text-center mt-3">Soft deli cup</h5>
+                            <h5 class="text-center text-danger">50kr</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <img class="img-fluid" src="./img/special.jpg" alt="speicalcup">
+                            <h5 class="card-title text-center mt-3">Soft deli cup</h5>
+                            <h5 class="text-center text-danger">60kr</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <!--contact-->
+    <section id="contact">
+        <h2 class="text-center pt-5">Talk to us</h2>
+        <p>
+            <h5 class="mt-3 text-center">Reach us via <b>Email</b> or follow us on social media below.</h5>
+        </p>
+        <div class="icon">
+            <div class="d-flex flex-row justify-content-center">
+                <div>
+                    <a><i class="fab fa-facebook"></i></a>
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-instagram"></i></a>
+                    <a><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div style="height: 50px;">
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<!-- container, row, col-6, text-center, 
+    mt-5, p-5, etc.
+ These classes help in organizing the layout and applying styles to the elements.-->
